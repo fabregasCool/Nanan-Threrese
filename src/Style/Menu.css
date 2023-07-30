@@ -1,0 +1,68 @@
+/* Mise en forme du Menu (Barre de Navigation) */
+/* Modification de la barre de navigation(menu */
+.haut_menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.col-text {
+  font-size: 12px;
+  margin-right: 5px;
+  text-align: center;
+}
+/* Couleur des onglets du menu au survol et lorsqu'il est cliqué */
+.nav {
+  color: black;
+  background-color: white;
+  width: 154px;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 1px;
+}
+
+.nav:active,
+.nav:focus,
+.nav:hover {
+  background-color: rgb(9, 181, 23);
+  border-radius: 5px;
+  width: 154px;
+  height: 50px;
+  text-align: center;
+}
+.img-logo {
+  height: 100px;
+  width: auto;
+  margin-left: 70px;
+}
+
+/*  */
+
+.modif-navbar {
+  background-color: rgba(0, 0, 0, 0.55); /* fond noir et transparent*/
+  font-family: serif;
+  box-shadow: rgba(255, 255, 255, 0.54);
+}
+
+/* Bouton devis et son hover*/
+.btn-devis {
+  color: #000;
+  border-color: var(--bs-teal);
+  transition: 0.5s;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.btn-devis:hover,
+.btn-devis:active {
+  color: #fff;
+  background-color: var(--bs-teal);
+}
+
+/* Bouton offCanvas */
+.justifyleft {
+  margin-left: 170px;
+  margin-top: 10px;
+  cursor: pointer;
+}

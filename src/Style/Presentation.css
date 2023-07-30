@@ -1,0 +1,91 @@
+.banner-presentation {
+  background: url('../Images/presentationBanniere.jpg') center center no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 100px; /*Hauteur de la bannière  */
+}
+
+.text-au-dessus-banniere {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 80px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  color: green;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.gras {
+  font-weight: bolder;
+}
+.texte {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  color: green;
+}
+
+.btn-ampoule {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  background-color: #fff;
+}
+
+.btn-ampoule:hover {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  background-color: rgb(15, 15, 159);
+}
+
+.btn-trait {
+  height: 25px;
+  width: 1130px;
+  background-color: green;
+  border: 1px solid green;
+}
+
+.btn-trait:hover {
+  height: 25px;
+  width: 1130px;
+  background-color: rgb(15, 15, 159);
+  border: 1px solid rgb(15, 15, 159);
+}
+.centrer-element {
+  text-align: center;
+}
+
+.atout_title {
+  font-family: cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: green;
+  font-size: 20px;
+}
+
+.atout_desc {
+  font-style: italic;
+  font-weight: 500;
+  color: rgb(41, 36, 36);
+  font-size: 25px;
+  font-family: fantasy;
+}
+.zero {
+  font-size: 100px;
+  color: blue;
+  font-weight: bold;
+}
+.text-zero {
+  font-size: 30px;
+  font-weight: 900;
+}

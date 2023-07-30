@@ -1,0 +1,380 @@
+/* Police utilisée partout dans le code */
+.redressed {
+  font-family: cursive;
+}
+.center-un-element {
+  text-align: center;
+}
+.aligner-a-droite {
+  text-align: right;
+}
+/* PARTIE MENU */
+
+/* Modification de la barre de navigation(menu */
+/* .haut_menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+} */
+
+/* .modif-navbar {
+  background-color: rgba(0, 0, 0, 0.55); 
+  font-family: serif;
+  box-shadow: rgba(255, 255, 255, 0.54);
+} */
+
+/* Bouton devis et son hover*/
+/* .btn-devis {
+  color: #000;
+  border-color: var(--bs-teal);
+  transition: 0.5s;
+  font-size: 30px;
+  border-radius: 10px;
+} */
+
+/* .btn-devis:hover,
+.btn-devis:active {
+  color: #fff;
+  background-color: var(--bs-teal);
+} */
+
+/* Bouton offCanvas */
+/* .justifyleft {
+  margin-left: 170px;
+  margin-top: 10px;
+  cursor: pointer;
+} */
+
+/* BANNIERE */
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('images/banniere1.jpeg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 900px; /*Hauteur de la bannière  */
+}
+
+/* Texte se triouvant sur la bannière */
+.banner-text {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}
+
+/* Bouton de la banière et son hover*/
+.btn-banner {
+  color: #000;
+  border-color: var(--bs-teal);
+  transition: 0.5s;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-top: 120px;
+  height: 80px;
+  width: 400px;
+}
+
+.btn-banner:hover,
+.btn-banner:active {
+  color: #f70808;
+  font-weight: 800;
+  background-color: rgb(147, 246, 111);
+}
+
+/* PARTIE DE LA PAGE, JUSTE EN DESSOUS DE LA BANNIERE PartOneAccueil*/
+.modif-product {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.product-title {
+  text-align: center;
+  font-size: 80px;
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 40px;
+  color: rgb(31, 233, 13);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.product-desc {
+  font-size: 30px;
+}
+.mot-en-gras {
+  font-weight: bold;
+}
+
+/* PartTwoAccueil */
+.banner2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('images/banniere2.jpg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 2330px; /*Hauteur de la bannière  */
+}
+.banner3 {
+  background-color: #001;
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 2330px; /*Hauteur de la bannière  */
+}
+.banner2-title {
+  font-size: 60px;
+  text-transform: capitalize;
+  padding-bottom: 35px;
+}
+
+.banner2-text,
+.banner3-text {
+  text-align: center;
+  color: #fff;
+}
+
+.btn-part2accueil {
+  border-radius: 50px;
+}
+
+.btn-part2accueil:hover {
+  background: rgb(8, 161, 8);
+}
+
+.banner3-title {
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
+}
+
+/*PartThreeAccueil  */
+
+.title-desc {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title-card {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: cursive;
+  margin-top: 25px;
+  color: #f7cb08;
+}
+
+.card1-part3Accueil:hover,
+.card1-part3Accueil:active {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('images/img7.jpeg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: auto; /*Hauteur de la bannière  */
+  cursor: pointer;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.card2-part3Accueil:hover,
+.card2-part3Accueil:active {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('images/img6.jpeg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: auto; /*Hauteur de la bannière  */
+  cursor: pointer;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.card3-part3Accueil:hover,
+.card3-part3Accueil:active {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('images/img1.jpeg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: auto; /*Hauteur de la bannière  */
+  cursor: pointer;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.card4-part3Accueil:hover,
+.card4-part3Accueil:active {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('images/img3.jpeg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: auto; /*Hauteur de la bannière  */
+  cursor: pointer;
+  color: #fff;
+  border-radius: 15px;
+}
+
+/* PartFourAccueil */
+
+.bannerPart4 {
+  background: linear-gradient(rgba(9, 173, 77, 0.5), rgba(12, 231, 67, 0.5));
+
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 920px; /*Hauteur de la bannière  */
+  padding-top: 80px;
+}
+.img-responsive {
+  height: 750px;
+  width: 1000px;
+  margin-top: 20px;
+}
+
+/* PartFiveAccueil */
+.banner5-Card1 {
+  background: url('images/img9.jpeg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 500px; /*Hauteur de la bannière  */
+}
+.banner5-Card2 {
+  background: url('images/img10.jpeg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 500px; /*Hauteur de la bannière  */
+}
+.banner5-Card3 {
+  background: url('images/img8.jpg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 500px; /*Hauteur de la bannière  */
+}
+.banner5-text {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+  padding-top: 200px;
+  max-width: 430px;
+  margin-left: 30px;
+}
+
+.banner5-Card1:hover {
+  background: url('images/img9.jpeg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: auto; /*Hauteur de la bannière  */
+  opacity: 0.9;
+  transform: scale(1);
+}
+
+.banner5-Card2:hover {
+  background: url('images/img10.jpeg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: auto; /*Hauteur de la bannière  */
+  opacity: 0.9;
+  transform: scale(1);
+}
+
+.banner5-Card3:hover {
+  background: url('images/img11.jpeg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: auto; /*Hauteur de la bannière  */
+  opacity: 0.9;
+  transform: scale(1);
+  /* transform: scale(1) rotate(5deg); */
+}
+
+/* PartSixAccueil */
+.banner6-text {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  color: #fff;
+  padding-top: 200px;
+  margin-left: 30px;
+}
+
+.banner6-Card1 {
+  background: url('images/img14.jpeg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 800px; /*Hauteur de la bannière  */
+}
+.banner6-Card2 {
+  background: url('images/img12.jpeg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 800px; /*Hauteur de la bannière  */
+}
+
+.banner6-Card1:hover,
+.banner6-Card1:active {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('images/img14.jpeg') center center fixed no-repeat;
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 800px; /*Hauteur de la bannière  */
+  cursor: pointer;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.banner6-Card2:hover,
+.banner6-Card2:active {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('images/img12.jpeg') center center fixed no-repeat;
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 800px; /*Hauteur de la bannière  */
+  cursor: pointer;
+  color: #fff;
+  border-radius: 15px;
+}
+
+/* Footer */
+.row1-footer {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.container2-footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000;
+  height: 200px;
+  padding-top: 30px;
+}
+
+.img-footer {
+  height: 170px;
+  width: auto;
+}
+
+.card-footer {
+  height: 300px;
+  width: 300px;
+  color: #e71414;
+}
+
+/* Presention:Qui somme nous */
+.banner-pre_qsn {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('images/banniere2.jpg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 1300px; /*Hauteur de la bannière  */
+}

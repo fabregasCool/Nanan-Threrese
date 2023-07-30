@@ -1,0 +1,49 @@
+.banner1-home {
+  background: linear-gradient(rgba(39, 200, 15, 0.5), rgba(245, 241, 241, 0.5));
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 650px; /*Hauteur de la bannière  */
+}
+.banner2-home {
+  background: linear-gradient(
+    rgba(245, 241, 241, 0.5),
+    rgba(245, 241, 241, 0.5)
+  );
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 1500px; /*Hauteur de la bannière  */
+}
+.btn_rentree {
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+}
+.btn_resultat {
+  font-family: cursive;
+  font-size: 30px;
+  text-decoration: underline;
+  background-color: gray;
+  border-left: 10px double;
+  border-right: 10px double;
+  border-top: none;
+  border-bottom: none;
+  transition: padding-top 0.4s ease-in-out, border-color 0.3s ease; /* on fait cett config de transition car on veut jouer sur le hover*/
+}
+
+.btn_resultat:hover {
+  padding-top: 20px; /* Lorsqu'on survole le btn, un padding-bottom va se créer en grandissant avec la transition juste en haut(0.4s) */
+  border-bottom-color: var(--bs-teal); /* Puis on aura cette couleur   */
+}
+.text {
+  font-family: cursive;
+  font-size: 20px;
+}
+.text_banner2 {
+  font-family: cursive;
+  font-size: 20px;
+}
+.centrer_element {
+  text-align: center;
+}
+
+.cursive {
+  font-family: cursive;
+}

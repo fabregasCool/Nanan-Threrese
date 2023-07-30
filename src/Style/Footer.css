@@ -1,0 +1,18 @@
+.banner-footer {
+  background: url('../Images/FooterBanniere3.jpg') center center fixed no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 120px; /*Hauteur de la bannière  */
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-footer {
+  color: #fff;
+  font-size: 12px;
+  margin-top: 70px;
+}

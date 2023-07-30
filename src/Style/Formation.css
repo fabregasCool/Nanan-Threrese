@@ -1,0 +1,73 @@
+.centrer_element {
+  text-align: center;
+}
+.banner-formation {
+  background: url('../Images/presentationBanniere.jpg') center center no-repeat;
+  /* center center: centrer suivant la postion x et la postion y  */
+  /* fixed: represente le bg-attachement; mm avec le scroll, l'image reste fixe  */
+  background-size: cover; /*L'mage se place comme une couverture et ainsi occupe tout l'espace disponible  */
+  height: 100px; /*Hauteur de la bannière  */
+}
+
+.text-au-dessus-banniere {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 80px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+hr {
+  border: none;
+  height: 5px; /* Set the hr color */
+  color: #000; /*old IE */
+  background-color: #000; /* Modern Browsers */
+}
+
+.filiere_title {
+  /* margin-top: 2px; */
+  font-size: 24px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.text_bg_vert {
+  text-align: justify;
+  font-weight: 100;
+}
+
+mark {
+  background-color: green !important;
+  color: #fff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text_debouche {
+  font-size: 22px;
+  font-family: fantasy;
+  font-weight: 400;
+}
+
+.table_title {
+  text-align: center;
+  font-family: cursive;
+  font-size: 23px;
+  text-transform: uppercase;
+  color: green;
+  font-weight: 700;
+}
+
+table {
+  font-family: cursive;
+  font-size: 25px;
+}
+
+thead {
+  background-color: rgb(5, 160, 34);
+  font-weight: bold;
+}
+tr {
+  text-align: center;
+  font-weight: 900;
+}

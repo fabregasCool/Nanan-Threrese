@@ -1,0 +1,23 @@
+/* Carousel */
+.carousel-img {
+  height: 100vh;
+  min-height: 300px;
+}
+
+.modif-text {
+  text-align: justify;
+  font-size: 15px;
+}
+
+.videomodif {
+  width: 530px;
+  height: 405px;
+}
+.text-au-dessus-banniere {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-left: 80px;
+  font-size: 20px;
+  font-weight: bold;
+}
